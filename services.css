@@ -78,4 +78,19 @@
   #projects_section h2 {
     font-size: 12vw;
   }
+  .flex_container {
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 15px;
+    justify-content: center;
+  }
+  .card {
+    height: auto;
+    min-height: 280px;
+    width: 100%;
+    max-width: 100%;
+    padding: 50px 30px;
+    margin: 0 auto;
+    overflow: visible;
+  }
 }

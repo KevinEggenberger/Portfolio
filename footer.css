@@ -15,6 +15,33 @@ footer h2 {
   gap: 15px;
   grid-template-areas: "item1 item2 item4";
 }
+@media (max-width: 768px) {
+  .grid_container {
+    width: 90%;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 15px;
+    grid-template-areas: "item1" "item2" "item4";
+  }
+  .grid_item {
+    padding: 15px;
+    gap: 10px;
+    height: auto;
+    min-height: 60px;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid_item img {
+    max-height: 50px;
+    max-width: 50px;
+  }
+  .grid_item > div {
+    display: none;
+  }
+  footer h2 {
+    font-size: 10vw;
+  }
+}
 .grid_container a {
   text-decoration: none;
   color: inherit;
