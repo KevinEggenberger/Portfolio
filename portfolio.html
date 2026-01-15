@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Kevin Eggenberger</title>
+    <link rel="stylesheet" href="general_settings.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="about_me.css" />
+    <link rel="stylesheet" href="services.css" />
+    <link rel="stylesheet" href="top_button.css" />
+    <link rel="stylesheet" href="footer.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <!--backToTopBtn-->
+    <button id="backToTopBtn" onclick="scrollToTop()">Back to Top</button>
+    <script src="top_button.js"></script>
+
+    <header>
+      <div class="header_text">
+        <nav>
+          <input type="checkbox" id="toggle_button" />
+          <label for="toggle_button">
+            <span class="material-symbols-rounded">menu</span>
+          </label>
+          <ul>
+            <li><a href="#about_me_section">Über Mich</a></li>
+            <li><a href="#projects_section">Meine Projekte</a></li>
+            <li><a href="#social_medias_section">Soziale Medien</a></li>
+          </ul>
+        </nav>
+        <h1>
+          <span id="gradient-h1">Kevin Eggenberger, <br /></span>
+          <span style="color: var(--main-brand-color)"
+            >Motivations-<br />schreiben</span
+          >
+        </h1>
+        <p class="subheading">
+          Bewerbung für die Ausbildung als Informatiker EFZ Fachrichtung
+          Plattformentwicklung<br />
+          <br />
+        </p>
+      </div>
+      <div class="circle">
+        <img src="images/bewerbungsfoto 800.jpg" alt="Kevin Eggenberger" />
+      </div>
+    </header>
+    <section id="about_me_section">
+      <img src="images/werdenbergercup.jpg" alt="This is ME!" />
+      <div class="about_me_container">
+        <h2><span id="gradient-h2"> Über Mich </span></h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+          recusandae natus ducimus, omnis iusto, vel dolorem dolorum, quod sed
+          sint nam? Asperiores nam tenetur officia aspernatur fugiat velit
+          nostrum itaque odit enim vitae repellat fugit temporibus eaque
+          voluptatibus architecto ipsa, animi magni ullam laborum recusandae,
+          eos quaerat assumenda quidem praesentium. Reiciendis harum dignissimos
+          temporibus veritatis cupiditate asperiores, voluptatum, animi natus
+          voluptate ea cumque illum libero, distinctio nam itaque unde! Itaque,
+          fuga! Pariatur consectetur, minima voluptatem sunt saepe cupiditate
+          debitis eaque architecto adipisci eum placeat nam reiciendis obcaecati
+          molestias explicabo doloribus, temporibus odit quis asperiores quas
+          possimus dignissimos dolore deleniti. Porro inventore itaque facere,
+          illum voluptatibus eius, temporibus praesentium iure quaerat harum
+          veritatis nobis quos, fugit nesciunt totam magnam repellendus
+          obcaecati deserunt alias! Ipsa quia rerum atque nulla neque temporibus
+          ipsum!
+        </p>
+      </div>
+    </section>
+    <section id="projects_section">
+      <h2><span id="gradient-h2">Meine Projekte</span></h2>
+      <div class="flex_container">
+        <div class="card" id="animated-border1">
+          <h3>Rezepte-Zauberer</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
+            fuga excepturi minus placeat, impedit sequi dolore? Consequatur hic
+            id quia non nobis exercitationem accusantium quisquam dolorem?
+            Numquam consectetur voluptatum illum.
+          </p>
+          <a
+            href="https://kevineggenberger.github.io/rezept-zauberer/"
+            target="_blank"
+            >Besuchen</a
+          >
+        </div>
+        <div class="card" id="animated-border2">
+          <h3>Cyber-Security Tool</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
+            fuga excepturi minus placeat, impedit sequi dolore? Consequatur hic
+            id quia non nobis exercitationem accusantium quisquam dolorem?
+            Numquam consectetur voluptatum illum.
+          </p>
+          <a
+            href="https://kevineggenberger.github.io/CyberSecurityTool/"
+            target="_blank"
+            >Besuchen</a
+          >
+        </div>
+        <div class="card" id="animated-border3">
+          <h3>Zwahlen-Coaching</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
+            fuga excepturi minus placeat, impedit sequi dolore? Consequatur hic
+            id quia non nobis exercitationem accusantium quisquam dolorem?
+            Numquam consectetur voluptatum illum.
+          </p>
+          <a href="https://www.zwahlen-coaching.ch/" target="_blank"
+            >Besuchen</a
+          >
+        </div>
+        <div class="card" id="animated-border4">
+          <h3>Fahrschule Fahrlust</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
+            fuga excepturi minus placeat, impedit sequi dolore? Consequatur hic
+            id quia non nobis exercitationem accusantium quisquam dolorem?
+            Numquam consectetur voluptatum illum.
+          </p>
+          <a href="https://www.fahrschule-fahrlust.li/" target="_blank"
+            >Besuchen</a
+          >
+        </div>
+      </div>
+    </section>
+    <footer id="social_medias_section">
+      <h2><span id="gradient-h2"> Soziale Medien </span></h2>
+      <div class="grid_container">
+        <a href="https://www.instagram.com/nivek.egb/" target="_blank">
+          <div id="item1" class="grid_item">
+            <img
+              src="images/Instagram_Glyph_Gradient.png"
+              alt="Instagram Logo"
+            />
+            <div>
+              <h3>Instagram</h3>
+            </div>
+          </div>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/kevin-eggenberger-a21a35196/"
+          target="_blank"
+        >
+          <div id="item2" class="grid_item">
+            <img src="images/schmutz.png" alt="LinkedIn Logo" />
+            <div>
+              <h3>LinkedIn</h3>
+            </div>
+          </div>
+        </a>
+        <a
+          href="https://www.facebook.com/kevin.eggenberger.3/?locale=de_DE"
+          target="_blank"
+        >
+          <div id="item4" class="grid_item">
+            <img src="images/Facebook_Logo_Primary.png" alt="LinkedIn Logo" />
+            <div>
+              <h3>Facebook</h3>
+            </div>
+          </div>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<!-- weitere Anpassungen:
+ Meine Projekte auf Github hochladen und verlinken auf diese CTA's
+  Im Footer die Social Media Icons verlinken auf meine Profile
+  Im About Me Abschnitt noch mehr über mich schreiben
+  Im Header evtl. noch ein paar Animationen einbauen
+  Favicon hinzufügen
+-->
