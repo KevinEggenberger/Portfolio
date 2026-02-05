@@ -44,7 +44,7 @@
   line-height: 175%;
 }
 @media (max-width: 800px) {
-  #about_me_section {
+  #meine_motivation {
     padding: 50px 0;
   }
   .about_me_container h2 {
